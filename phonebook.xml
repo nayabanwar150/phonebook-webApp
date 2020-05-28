@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.3
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: May 28, 2020 at 05:14 AM
+- Server version: 10.1.35-MariaDB
+- PHP Version: 7.2.9
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="adainfront" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="phonebook">
+                CREATE TABLE `phonebook` (
+                  `id` int(10) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(256) NOT NULL,
+                  `dob` date DEFAULT NULL,
+                  `mobiles` varchar(1000) NOT NULL,
+                  `emails` varchar(1000) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+</pma_xml_export>

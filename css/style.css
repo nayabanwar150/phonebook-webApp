@@ -1,0 +1,170 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/****************************
+            Global
+****************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.main-content {
+  max-width: 700px;
+  margin: 25px auto;
+}
+
+.btn-add-contact {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn-add-contact a {
+  color: #fff;
+}
+
+.btn-add-contact:hover {
+  background-color: blue;
+}
+
+.text-right {
+  float: right;
+}
+
+h5{
+  font-size: .9rem;
+}
+
+/****************************
+        NavBar
+****************************/
+
+.navbar{
+  background-color: #8a2be2 !important;
+  border-bottom: 2px solid rgb(11, 248, 3);
+}
+
+.navbar-brand{
+  color: #fff !important;
+  font-weight: 800;
+}
+
+/****************************
+        Search Bar
+****************************/
+
+.input-group input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.input-group-append button {
+  background-color: #fff;
+  color: black;
+  border-left: none;
+  border-color: #c4c4c4;
+}
+
+/****************************
+    Contacts Display
+****************************/
+
+.card-header {
+  height: 55px;
+  border: 1px solid black;
+  background: linear-gradient(#0cdbe2,#0752f5);
+}
+
+.card-header h5 button {
+  margin-top: -8px;
+}
+
+.card-header .btn-link,
+.name h5,
+.name .btn-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.card-body {
+  background: linear-gradient(to bottom,#944ed6,#2456a0);
+  border: 1px solid black;
+}
+
+.contact-details {
+  border: 1px solid black;
+  background-color: #91cdd1;
+}
+
+.operations button {
+  width: 90px;
+  height: 38px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.operations button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.email a {
+  color: black;
+}
+
+.email a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+/****************************
+       Add New Contact
+****************************/
+
+.add-contact-form {
+  max-width: 400px;
+  margin: auto;
+  height: max-content;
+  border: 1px solid black;
+}
+
+.heading .fa-arrow-left{
+  color: black;
+  font-size: 1rem;
+}
+
+.btn-add {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  border: none;
+  outline: none;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#add-form input:focus,#search-form input:focus{
+  box-shadow: none;
+  outline: 2px solid #05FF37;
+}
+
+.btn-save{
+  width: 100px;
+  height: 40px;
+  text-align: center !important;
+}
+
