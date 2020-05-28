@@ -121,6 +121,10 @@
         </div>
     </div>
 
+    <!-- Add Contacts Button -->
+    <button class="btn btn-default btn-add-contact"><a href="addNewContact.php"><i class="fa fa-plus"></i></a></button>
+
+
     <script>
         $(document).ready(function() {
             // Add more mobile number input fields
