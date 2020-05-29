@@ -12,6 +12,8 @@
 7.PHP  
 8.MYSQL  
 
+### Table Schema available @ phonebook.xml in the directory. 
+
 ## Navigations
 ### 1.Home Page
 #### INDEX -------> plain PHP -------> MYSQL
